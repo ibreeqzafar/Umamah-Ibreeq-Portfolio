@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/readme-welcome.svg" alt="A colorful dimensional Welcome to my portfolio banner" width="100%" />
+  <img src="assets/readme-welcome.gif" alt="Animated, colorful 3D Welcome banner for Umamah Ibreeq Zafar’s portfolio" width="100%" />
   <br />
   <a href="https://ibreeqzafar.github.io/Umamah-Ibreeq-Portfolio/umamahibreeq.html"><strong>✦ Visit my portfolio ✦</strong></a>
   &nbsp; · &nbsp;

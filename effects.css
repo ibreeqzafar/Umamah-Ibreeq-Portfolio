@@ -82,14 +82,15 @@ body {
 .outline-word {
   display: inline-block;
   position: relative;
-  background: linear-gradient(105deg, #e2caff 0%, #a58cff 24%, #62d8ff 53%, #64f4d5 76%, #ffa6eb 100%);
-  background-size: 240% 100%;
+  background: linear-gradient(100deg, #f1c5ff 0%, #a98aff 18%, #66cfff 38%, #60f5d9 56%, #ff83d6 77%, #ffe48b 100%);
+  background-size: 300% 100%;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  filter: drop-shadow(0 0 16px #9b82ff45) drop-shadow(0 7px 0 #39205d70);
-  text-shadow: 0 1px 0 #d8c7ff66, 0 2px 0 #b4a0ff55, 0 3px 0 #8f7bdc44, 0 0 30px #52efd235;
-  animation: headline-spectrum 9s ease-in-out infinite alternate, headline-depth 4s ease-in-out infinite;
+  background-position: 0% 50%;
+  filter: drop-shadow(0 0 19px #9b82ff70) drop-shadow(0 8px 0 #39205d88);
+  text-shadow: 0 1px 0 #f6eaffd9, 0 2px 0 #d4bdff, 0 4px 0 #a78bfa, 0 6px 0 #7650cf, 0 9px 0 #42246e, 0 13px 18px #04040db3;
+  animation: headline-spectrum 5.5s linear infinite, headline-depth 4s ease-in-out infinite;
 }
 .button-primary {
   color: #100d1a;
@@ -511,4 +512,5 @@ body {
 }
 @media (prefers-reduced-motion: reduce) {
   .hero-art::before, .panel-a, .panel-b, .outline-word { animation: none !important; }
+  .outline-word { background-size: 100% 100%; }
 }
